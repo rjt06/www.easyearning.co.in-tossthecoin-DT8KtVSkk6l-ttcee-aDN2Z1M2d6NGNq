@@ -1,0 +1,46 @@
+.coin-section {
+  position: relative;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 12rem;
+  height: 89%;
+  padding-bottom: 10%;
+}
+
+@media (min-width: 435px) {
+  html {
+    font-size: 40%;
+  }
+
+
+  .coin-section {
+    padding-bottom: 0%;
+    justify-content: start;
+  }
+
+  .withdraw-list-container {
+    margin-top: 10rem;
+  }
+
+
+  .demo-btns {
+    margin-top: 2.4rem;
+  }
+}
+
+.add-section {
+  display: none;
+  padding: 2rem;
+  grid-template-columns: 80% 20%;
+  row-gap: 3rem;
+}
+
+.withdraw-section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

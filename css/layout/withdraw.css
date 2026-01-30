@@ -1,0 +1,63 @@
+.upi-input-label {
+  font-size: 2rem;
+  color: rgb(98, 0, 0);
+  font-weight: 600;
+  margin-top: 12rem;
+  margin-bottom: 1rem;
+}
+
+.upi-input {
+  background-color: hsl(39, 88%, 80%);
+  width: 80%;
+  padding: 1rem;
+  outline: none;
+  color: rgb(98, 0, 0);
+  border: .1rem solid hsl(39, 88%, 60%);
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.amount-input-label {
+  font-size: 2rem;
+  color: rgb(98, 0, 0);
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.amount-input {
+  background-color: hsl(39, 88%, 80%);
+  width: 80%;
+  padding: 1rem;
+  outline: none;
+  color: rgb(98, 0, 0);
+  border: .1rem solid hsl(39, 88%, 60%);
+  font-size: 2rem;
+  border-radius: 1rem;
+  z-index: 100;
+}
+
+.amount-input::placeholder,
+.upi-input::placeholder {
+  color: rgba(98, 0, 0, 0.2);
+}
+
+.withdraw-btn {
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(243, 183, 72);
+  font-weight: 500;
+  color: rgb(98, 0, 0);
+  box-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.3);
+  transition: transform .1s;
+  margin-top: 1.4rem;
+  cursor: pointer;
+}
+
+
+.money-equals {
+  margin-top: 2rem;
+}

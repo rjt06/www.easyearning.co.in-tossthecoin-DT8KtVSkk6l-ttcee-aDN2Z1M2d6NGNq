@@ -1,0 +1,74 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.3);
+  padding: 2rem 0;
+  width: 100%;
+  background-color: var(--color-background);
+  z-index: 100;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo-text {
+  margin-left: 3rem;
+  display: inline-block;
+  height: 2.6rem;
+  width: auto;
+}
+
+.coin-points {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .4rem;
+  min-width: 10rem;
+  height: 4rem;
+  background-color: rgba(255, 166, 0, 0.2);
+  margin-right: 2.4rem;
+  border-radius: 3rem;
+  border: .1rem solid rgba(255, 166, 0, 0.3);
+
+  span {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgba(98, 0, 0);
+    padding-right: 1rem;
+  }
+}
+
+.coin-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+}
+
+.parah {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  border-top: .1rem solid rgba(98, 0, 0, 0.1);
+  background-color: rgb(243, 183, 72);
+
+  p {
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 100%;
+    color: rgba(98, 0, 0);
+    padding: .14em;
+    font-size: 1.2rem;
+    font-weight: 100;
+    word-spacing: .1rem;
+    letter-spacing: .08rem;
+    animation: scroll 60s linear infinite;
+  }
+
+}

@@ -1,0 +1,19 @@
+@import url("abstracts/variables.css");
+
+@import url("base/animations.css");
+@import url("base/base.css");
+@import url("base/typography.css");
+@import url("base/utilities.css");
+
+@import url("components/buttons.css");
+@import url("components/cards.css");
+@import url("components/objects.css");
+
+@import url("layout/header.css");
+@import url("layout/coin.css");
+@import url("layout/footer.css");
+@import url("layout/add-money.css");
+@import url("layout/withdraw.css");
+@import url("layout/overlay.css");
+
+@import url("pages/home-page.css");
