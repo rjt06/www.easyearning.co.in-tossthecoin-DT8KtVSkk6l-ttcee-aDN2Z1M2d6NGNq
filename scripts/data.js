@@ -1,7 +1,8 @@
 export const pointObj = {
-  point: 10
+  point: 20
 }
 
 export const bettingAmountObj = {
   bettingAmount: 10
+
 }
